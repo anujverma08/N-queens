@@ -14,7 +14,7 @@ public class NQueen {
     static {
         try {
             // Load queen image
-            queenImage = ImageIO.read(new File("queen.png"));
+            queenImage = ImageIO.read(new File("queen1.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
